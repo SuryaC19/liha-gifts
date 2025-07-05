@@ -1,0 +1,16 @@
+.page-layout {
+  display: flex;
+  min-height: 80vh;
+
+  app-sidebar {
+    width: 220px;
+    background-color: #fff4f6;
+    border-right: 1px solid #ccc;
+  }
+
+  .main-content {
+    flex: 1;
+    padding: 16px;
+    background-color: #fdfdfd;
+  }
+}

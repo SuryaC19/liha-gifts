@@ -1,0 +1,20 @@
+<section class="hero-section">
+  <img src="assets/banner.jpg" alt="Liha Gifts Banner" class="hero-image" />
+  <div class="hero-text">
+    <h1>Welcome to Liha Gifts</h1>
+    <p>Beautifully curated return gifts for every celebration — from baby showers to corporate events.</p>
+  </div>
+</section>
+
+<section class="product-section">
+  <h2>Our Popular Picks</h2>
+  <div class="product-grid">
+    <!-- Example product cards -->
+    <div class="product-card" *ngFor="let product of products">
+      <img [src]="product.image" [alt]="product.name" />
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.description }}</p>
+    </div>
+  </div>
+</section>
+
